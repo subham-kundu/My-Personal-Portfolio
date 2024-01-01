@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subham Kundu's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c1faf9be62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- -------------Header--------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>Subham</span>'s Portfolio</h1>
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="rowHead">
+                <div class="headerText">
+                    <h1>Hi, I'm <span>Subham Kundu</span></h1>
+                    <h4><span>Web Developer</span></h4>
+                    <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of overall product.</p>
+                    <a href="images/Subham Kundu's Resume.pdf" download class="btn btn2 btn4">Download CV</a>
+                </div>
+                <div class="backgroungImage">
+                    <img src="images/Subham Kundu's Pic-1.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------About--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutCol1">
+                    <img src="images/Subham Kundu's Pic-2.jpg">
+                </div>
+                <div class="aboutCol2">
+                    <h1 class="subTitle">About Me</h1>
+                    <h2>Hello!</h2>
+                    <h3>Welcome to my Personal Portfolio Website.</h3>
+                    <p>I'm Subham Kundu - A creative, hard-working and a quick thinking MCA Post Graduate who mainly focuses on Frontend Web Development and builds Frontend of Websites and Web Applications.</p>
+                    <p>I'm a dedicated MCA Student who's also passionate about Coding and much focused on development of Personal and Professional growth.</p>
+                    <div class="tabTitles">
+                        <div class="tabLinks activeLink" onclick="opentab('skills')">Skills</div>
+                        <div class="tabLinks" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tabContents activeTab" id="skills">
+                        <ul>
+                            <li><span>Coding</span><br>Python and Java</li>
+                            <li><span>Query</span><br>RDBMS and SQL</li>
+                            <li><span>Web Development</span><br>HTML, CSS and JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tabContents" id="education">
+                        <ul>
+                            <li><span>2021 - 2023</span><br>MCA from Asansol Engineering College</li>
+                            <li><span>2018 - 2021</span><br>BCA from Banwarilal Bhalotia College</li>
+                            <li><span>2016 - 2018</span><br>12th from Kendriya Vidyalaya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------------Certificates---------------------->
+    <div id="certificates">
+        <div class="container">
+            <h1 class="subTitle">My Certificates</h1>
+            <div class="certificatesList">
+                <div>
+                    <h2>Python Programming for Everybody</h2>
+                    <p>Getting Started with Python - Coursera</p>
+                    <a href="https://coursera.org/share/35595c196b47ed9899e26fcade59b735" target="_blank"><img src="images/Python.png"></a>
+                </div>
+                <div>
+                    <h2>Introduction to Internet of Things (IoT)</h2>
+                    <p>NPTEL SWAYAM - Online Certification</p>
+                    <a href="https://drive.google.com/file/d/1op0V_b1GL1iNHIdWoVwjdRVAEs09j3_l/view?usp=drive_link" target="_blank"><img src="images/IOT.png"></a>
+                </div>
+                <div>
+                    <h2>Introduction to Java (LearnQuest)</h2>
+                    <p>Online Certification - Coursera</p>
+                    <a href="https://coursera.org/share/991154c6488bea47a06526d9d9a2a264" target="_blank"><img src="images/Java.png"></a>
+                </div>
+            </div>
+            <a href="https://drive.google.com/drive/folders/1-L7rLMYDeBlBhqNWOKQWtuE_Fs5JfMDT?usp=drive_link" target="_blank" class="btn btn2 btn3">Show More</a>
+        </div>
+    </div>
+
+    <!-- ----------------------------Portfolio------------------------------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subTitle">My Work</h1>
+            <div class="workList">
+                <div class="work">
+                    <h2>Project - 1</h2>
+                    <img src="images/Pic-1.png">
+                    <div class="layer">
+                        <h3>Secure Password</h3>
+                        <p>Developed a Secured Password Manager using HTML, CSS and JavaScript.</p>
+                        <a href="https://subham-kundu.github.io/Secure-Password-Manager/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <h2>Project - 2</h2>
+                    <img src="images/Pic-2.png">
+                    <div class="layer">
+                        <h3>Password Generator</h3>
+                        <p>Developed a Random Password Generator using HTML, CSS and JavaScript.</p>
+                        <a href="https://subham-kundu.github.io/Random-Password-Generator/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <h2>Project - 3</h2>
+                    <img src="images/Pic-3.png">
+                    <div class="layer">
+                        <h3>Covid-19 Vaccination Hub</h3>
+                        <p>Developed an online Covid-19 Vaccination Hub using Webforms in ASP.NET.</p>
+                        <a href="https://subham-kundu.github.io/QR-Code-Generator/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/subham-kundu?tab=repositories" target="_blank" class="btn btn2 btn3">Show More</a>
+        </div>
+    </div>
+
+    <!-- ----------------------Contact------------------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactLeft">
+                    <h1 class="subTitle">Let's Connect</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>kundusubham3@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8709768779</p>
+                    <div class="socialIcons">
+                        <a href="https://www.facebook.com/subhaaaaaaam/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/subhaaaaaaam/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kundu-subham/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/subham-kundu" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="images/Subham Kundu's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactRight">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright © Subham Kundu's Portfolio</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
