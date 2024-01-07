@@ -107,7 +107,6 @@ nav ul li a:hover::after {
 .backgroungImage {
     flex-basis: 40%;
     margin-top: 5%;
-    
 }
 
 .backgroungImage img {
@@ -430,15 +429,27 @@ nav .fa-solid {
     display: none;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     .backgroungImage {
+        flex-basis: 0;
         display: none;
     }
     #header {
-        margin-bottom: -50px;
+        margin-bottom: -400px;
+    }
+    #about {
+        padding: 10px 0; /* Decreased top padding from 30px to 10px */
+        color: rgb(156, 155, 155);
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
     .headerText {
-        margin-top: 40%;
+        margin-top: 10%;
         font-size: 16px;
         flex-basis: 100%;
     }
@@ -498,70 +509,3 @@ nav .fa-solid {
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    .backgroungImage {
-        display: none;
-    }
-    #header {
-        margin-bottom: 0;
-    }
-    .headerText {
-        margin-top: 40%;
-        font-size: 16px;
-        flex-basis: 100%;
-    }
-    nav h1 {
-        font-size: 25px;
-    }
-    .headerText h1 {
-        font-size: 30px;
-    }
-    .btn4 {
-        margin: 40px 0;
-        padding: 10px 20px;
-    }
-    nav .fa-solid {
-        display: block;
-        font-size: 25px;
-    }
-    nav ul {
-        background: red;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: right 0.5s;
-    }
-    nav ul li {
-        display: block;
-        margin: 25px;
-    }
-    nav ul .fa-solid {
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    .subTitle {
-        font-size: 40px;
-    }
-    .aboutCol1, .aboutCol2 {
-        flex-basis: 100%;
-    }
-    .aboutCol1 {
-        margin-bottom: 30px;
-    }
-    .aboutCol2 {
-        font-size: 14px;
-    }
-    .tabLinks {
-        font-size: 16px;
-        margin-right: 20px;
-    }
-    .contactLeft, .contactRight {
-        flex-basis: 100%;
-    }
-}
